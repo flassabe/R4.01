@@ -193,4 +193,6 @@ Vous trouverez également ces ressources dans leurs fichiers du dépôt.
 
 L'objectif de la séance est de créer l'UI suivant le schéma ci-dessous. Les interactions avec les éléments de l'UI seront implémentées à la séance suivante. Vous pouvez faire appel à des outils externes, notamment des IA génératives, pour vous assister dans cette tâche. Toutefois, gardez à l'esprit que les IA commettent des erreurs (parfois bénignes, parfois bien plus problématiques) et que vous devez donc être capables d'analyser et de qualifier la qualité des solutions que vous obtenez par ce biais.
 
-![Image décrivant l'interface à créer en Qt](Qt App BUT.png "Interface à définir")
+![Image décrivant l'interface à créer en Qt](<Qt App BUT.png> "Interface à définir")
+
+File et Help auront comme contenu respectivement Quit et About.
