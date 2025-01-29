@@ -4,4 +4,4 @@ Ce dépôt contient les versions markdown/C++ des sujets distribués en PDF via 
 
 Actuellement, le TP disponible est
 
-    - le TP3, [introduction à Qt et ses widgets](TP3/README.md)
+ - le TP3, [introduction à Qt et ses widgets](TP3/README.md)
