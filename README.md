@@ -6,11 +6,11 @@ Pour installer Qt et Qt Creator, vous devrez installer les paquets suivants :
 
  - Sous Fedora :
  ```bash
- dnf install qt-creator qt6-qtbase-devel
+ sudo dnf install qt-creator qt6-qtbase-devel -y
  ```
  - Sous Debian et affiliés :
  ```bash
- # TODO
+ sudo apt update && sudo apt install qtcreator qt6-base-dev -y
  ```
  - Windows/MAC OSX : utilisez l'installeur en ligne, ou les lignes de commandes ci-dessus après installation d'un système Linux (double boot, ou machine virtuelle)
 
