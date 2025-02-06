@@ -44,7 +44,7 @@ QObject::connect(&c1, &une_classe::event_sent, &c2, &une_classe::event_received)
 c1.send_event(); // -> provoque l'appel de event_received de c2
 ```
 
-Les QWidgets ont des signaux définis en fonction de leur rôle (clic pour les boutons, etc.)
+Les QWidgets ont des signaux définis en fonction de leur rôle (clic pour les boutons, etc.). Ces événements sont décrits dans la documentation sous la section signaux.
 
 ## Travail demandé
 
