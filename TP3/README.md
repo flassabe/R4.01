@@ -1,4 +1,4 @@
-# Premiers pas avec Qt
+# TP3 - Premiers pas avec Qt
 
 ## Présentation rapide de Qt
 

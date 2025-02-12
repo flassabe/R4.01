@@ -1,4 +1,4 @@
-# Les événements Qt
+# TP4 - Les événements Qt
 
 ## Architecture d'événements Qt
 
