@@ -19,4 +19,4 @@ Actuellement, les TP disponibles sont :
  - [Introduction à Qt et ses widgets](TP3)
  - [Les événements Qt](TP4)
  - [Le graphisme avec Qt](TP5)
- - [Les serveurs de tuiles cartographiques](TP6)
+ - [Le réseau avec Qt](TP6)
