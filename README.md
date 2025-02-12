@@ -16,5 +16,7 @@ Pour installer Qt et Qt Creator, vous devrez installer les paquets suivants :
 
 Actuellement, les TP disponibles sont :
 
- - le TP3, [introduction à Qt et ses widgets](TP3)
- - le TP4, [les événements Qt](TP4)
+ - [Introduction à Qt et ses widgets](TP3)
+ - [Les événements Qt](TP4)
+ - [Le graphisme avec Qt](TP5)
+ - [Les serveurs de tuiles cartographiques](TP6)
