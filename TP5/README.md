@@ -85,4 +85,4 @@ Pour afficher la carte, vous devrez passer par les étapes suivantes :
 - Déclarer et affecter à votre élément central de fenêtre principale une instance d'une classe dérivée `QWidget` et dédiée à l'affichage de la carte. Redéfinir sa méthode `paintEvent`.
 - Pour chaque tuile, il faut afficher son image à la position correcte de l'écran	
 	
-Pour obtenir vos tuiles, vous choisirez un niveau de zoom entre 5 et 15. La carte à afficher sera centrée sur les coordonnées WGS84 (6.839349, 47.64263) sous forme (longitude, latitude).
+Pour obtenir vos tuiles, vous choisirez un niveau de zoom entre 5 et 15. La carte à afficher sera centrée sur les coordonnées WGS84 (6.839349, 47.64263) sous forme (longitude, latitude). Consultez l'introduction du TP7 pour une description du système de tuiles cartographiques. Vous nommerez vos fichiers Z-X-Y.png lorsque vous les téléchargez pour vous permettre d'afficher facilement la bonne tuile au bon endroit.
