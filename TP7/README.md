@@ -26,7 +26,23 @@ Vous trouverez la description du calcul pour déterminer des coordonnées de tui
 
 Il faut également souligner un point important : le serveur openstreetmap.org filtre les accès à son contenu à une liste blanche de user agents (firefox, chrome, edge, etc. pour les navigateurs, curl et wget pour les utilitaires). Pour votre propre programme, il vous faut une source de tuiles non filtrée. Vous utiliserez donc le serveur suivant :
 
-**TODO: adresse du serveur à utiliser**
+Deux possibilités s'offrent à vous : vous pouvez utiliser un serveur de tuiles avec enregistrement (par exemple www.maptilesapi.com), ce qui nécessitera d'ajouter des `headers` à votre requête :
+
+```cpp
+// Vous remplacerez cette ligne :
+_reply = _network_access->get(QNetworkRequest(QUrl(tile_url);
+
+// Par
+_url = QString{"https://maptiles.p.rapidapi.com/fr/map/v1/%1/%2/%3.png"}.arg(_zoom).arg(x).arg(y);
+QNetworkRequest request{QUrl{_url}};
+QHttpHeaders headers{};
+headers.append("x-rapidapi-key", "votre clé d'API sur maptilesapi"); // à adapter à votre compte utilisateur
+headers.append("x-rapidapi-host", "maptiles.p.rapidapi.com");
+request.setHeaders(headers);
+_reply = _network_access->get(request);
+```
+
+La seconde solution est d'utiliser une machine virtuelle qui vous est fournie sur [cette page](https://info.iut-bm.univ-fcomte.fr/staff/flassabe/). Cette image de machine virtuelle (VM) doit être importée dans VirtualBox. Cette VM contient les informations géographiques uniquement pour la Franche-Comté, contrairement à un service en ligne qui distribue généralement les cartes de l'ensemble du monde. Pour accéder au serveur web de la VM, vous devrez configurer un tunnel vers le port 80 sur la machine hôte, par exemple en redirigeant son port 8080 local vers le port 80 de la machine invitée (la VM). Votre code utilisera alors comme URL la chaîne suivante : `http://localhost:8080/hot/<zoom>/<x>/<y>.png`, avec zoom, x et y remplacés par les valeurs des tuiles recherchées.
 
 ## Travail demandé
 
