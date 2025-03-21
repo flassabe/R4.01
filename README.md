@@ -21,3 +21,4 @@ Actuellement, les TP disponibles sont :
  - [Le graphisme avec Qt](TP5)
  - [Le réseau avec Qt](TP6)
  - [Cartographie et les serveurs de tuiles](TP7)
+ - [Intégration finale et rendu des travaux](TP8)
