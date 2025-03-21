@@ -57,7 +57,7 @@ Liste des fonctions attendues :
 
 Pour remettre votre code, vous aurez deux possibilités :
 
-- Par Moodle : un devoir sera créé dans Moodle pour vous permettre de déposer votre code sous forme d'une archive (.zip, .tgz, .tar.gz, .tar.xz, .tar.bz2, .rar). L'archive doit contenir uniquement : les fichiers C++ et les entêtes (.h ou .hpp), ainsi que le fichier projet .pro (mais pas le .user.pro).
+- Par Moodle : un devoir sera créé dans Moodle pour vous permettre de déposer votre code sous forme d'une archive (.zip, .tgz, .tar.gz, .tar.xz, .tar.bz2, .rar). L'archive doit contenir uniquement : les fichiers C++ et les entêtes (.h ou .hpp), le fichier projet .pro (mais pas le .user.pro), et un fichier AUTHORS contenant les nom et prénom de chaque membre du binôme, une personne par ligne.
 - En partageant un dépôt git : dans ce cas, le dépôt doit être accessible publiquement, et son URL sera déposée dans le devoir Moodle, dans un fichier texte nommé `url.txt`. Le code peut être sur github, gitlab ou toute autre instance de service git, du moment qu'il est accessible.
 
 Assurez vous que votre code se compile et s'exécute correctement dans un environnement Linux avec Qt en version 6.X.
